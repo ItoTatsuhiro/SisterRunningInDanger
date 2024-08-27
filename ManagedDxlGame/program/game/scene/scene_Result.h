@@ -42,7 +42,7 @@ private:
 	int highScore_ = 0;			// Ç±ÇÍÇ‹Ç≈Ç≈ÇÃç≈çÇÉXÉRÉA
 
 
-	tnl::Vector3 resultTextPos_{ 450, 200, 0 };
+	tnl::Vector3 resultTextPos_{ 500, 200, 0 };
 	tnl::Vector3 nowScorePos_{ 500, 350, 0 };
 	tnl::Vector3 highScorePos_{ 500, 450, 0 };
 

@@ -228,7 +228,7 @@ const float& Player::get_hp_() {
 // hpの値を変更する関数
 void Player::set_hp_(const float damage) {
 
-	if (hitIntervalCount_ >= hitInterval_ || damage < 0) {
+	if ((hitIntervalCount_ >= hitInterval_ || damage < 0) && hp_ > 0) {
 
 		if (damage > 0) {
 			set_hitIntervalCount_(0);		// ダメージを受けてからの時間を0にリセットする
